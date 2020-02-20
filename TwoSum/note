@@ -1,0 +1,13 @@
+######## Problem 1 ###########
+# Learned
+#### Two stl: vector & unordered_map
+######## vector: array but could change size
+	 construct std::vector<type> name(size);
+	 access    vector[i]
+	 size	   vector.size() 
+######## unorder_map: hush_table
+	 construct std::unordered_map<Type U, Type T> map;
+         find      std::unordered_map<int, int>::const_iterator got
+		   if (got != map.end())    <- find
+         insert    map.insert(std::make_pair(U, V))
+#### The idea of using hash table to run faster, but cost more memory
