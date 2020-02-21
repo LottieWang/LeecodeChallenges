@@ -1,0 +1,4 @@
+# new corresponds to delete
+# a,b,c = 0; in this case, only c=0
+  the right form should be a=b=c=0;
+# int x = (p != null) ? p.val : 0;  <- short form learned from official
